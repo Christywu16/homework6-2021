@@ -160,22 +160,27 @@ header{
   }
   /*Requirement 15*/
   .nav_links{
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
+    
   }
   /*Requirement 16*/
-  .price{
+  .price>div{
+    /* flex-direction: row; */
     align-content: flex-end;
   }
   /*Requirement 17*/
-  .package{
-    border-style: solid;
-    border: 2px;
-    border-color: #45ADAD;
+  .price>div{
+    border: 2px solid #45ADAD;
     flex-basis: 200px;
   }
   /*Requirement 18*/
-  .gallery{
+  #gallery {
     display: none;
+  }
+  .gallery{
+    display:none;
   }
  
 }
